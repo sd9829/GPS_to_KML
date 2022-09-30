@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<kml xmlns = "http://www.opengis.net/kml/2.2">
+<Document>
+	<Style id = "cyanPoly">
+		<LineStyle>
+			<color>Afffff00</color>
+			<width>6</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7fffff00</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+	<styleUrl>#cyanPoly</styleUrl>
+	<LineString>
+		<Description>Speed in MPH, instead of altitude.</Description>
+		<extrude>1</extrude>
+		<tesselate>1</tesselate>
+		<altitudeMode>absolute</altitudeMode>
+		<coordinates>
+			-83.608223,39.617790,0.29
+			-83.608335,39.617762,0.36
+			-83.608393,39.617683,0.26
+			-83.608510,39.617673,0.39
+			-83.608395,39.617692,0.01
+			-83.608298,39.617745,0.01
+			-83.608260,39.617660,0.00
+			-83.608327,39.617735,0.01
+			-83.608337,39.617825,0.00
+			-83.608283,39.617743,0.00
+			-83.608333,39.617825,0.00
+			-83.608302,39.617738,0.00
+			-83.608342,39.617653,0.01
+			-83.608373,39.617740,0.00
+		</coordinates>
+	</LineString>
+	</Placemark>
+</Document>
+</kml>
